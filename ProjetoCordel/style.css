@@ -14,9 +14,6 @@ header{
     margin: 0px;
 }
 
-.texto_header{
-    margin: 0px;
-}
 
 a{
     text-decoration: none;
@@ -37,42 +34,37 @@ font-size: 2em;
     size: 50%;
 }
 
-.diferente1{
+.diferente{
     margin: 0em;
+    background-color: rgb(63, 63, 63);
     padding: 10em 0em 10em 0em;
+    box-shadow: inset 1px 1px 20px 1px black;
+}
+
+section.diferente > p{
+    display: block;
+    width: 350px;
+    padding: 0.5em 1em 0.5em 0em;
+    margin-left: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+section#img01{
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 1px 1px 20px 1px black;
 }
 
-.diferente2{
-    margin: 0em;
-    padding: 10em 0em 10em 0em;
+section#img02{
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 1px 1px 20px 1px black;
 }
-
-.diferente1 > p{
-    display: block;
-    width: 350px;
-    padding: 0.5em 1em 0.5em 0em;
-    margin-left: 1em;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.274);
-}
-
-.diferente2 > p{
-    display: block;
-    width: 350px;
-    padding: 0.5em 1em 0.5em 0em;
-    margin-left: 1em;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.274);
-}
-
 
 footer{
     text-align: center;
