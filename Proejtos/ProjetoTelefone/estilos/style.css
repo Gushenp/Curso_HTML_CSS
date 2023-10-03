@@ -1,0 +1,66 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Configuração do telefone */
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.telefone{
+    height: 644px;
+    width: 311px;
+}
+
+/* Configurações dos apps de navegação */
+
+section#navegação{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+section#navegação > iframe{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    background-size: cover;
+}
+
+.home{
+    background-image: url(../imagens/logo-home.jpg);
+}
+
+.face{
+    background-image: url(../imagens/logo-facebook.jpg);
+}
+
+.git{
+    background-image: url(../imagens/logo-github.jpg);
+}
+
+.inst{
+    background-image: url(../imagens/logo-instagram.jpg);
+}
+
+.twt{
+    background-image: url(../imagens/logo-twitter.jpg);
+}
+
+.yout{
+    background-image: url(../imagens/logo-youtube.jpg);
+}
+
