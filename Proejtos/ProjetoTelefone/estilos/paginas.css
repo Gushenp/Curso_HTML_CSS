@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div{
+    text-align: center;
+}
+
+body{
+    height: 10px;
+}
