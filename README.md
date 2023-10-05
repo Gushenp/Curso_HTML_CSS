@@ -6,4 +6,4 @@ de criação de páginas web usando HTML e CSS, abrindo as portas para o mundo d
 
 ## Algumas atividades
 
-###[android](docs/projetos/ProjetoCordel)
+###[android](projetos/ProjetoCordel)
