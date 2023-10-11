@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body, html{
+    background-image: url(imagens/back-print.jpg);
+}
+
+#impressora{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 2em;
+    border-radius: 20px;
+}
