@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="cell.css" media="screen and (max-width: 700px)">
-    <title>Menus</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Media Query</title>
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <a href="op1" >Opção 1</a>
-            <a href="op2" >Opção 2</a>
-            <a href="op3" >Opção 3</a>
-            <a href="op4" >Opção 4</a>
-            <a href="op5" >Opção 5</a>
+        <h1>Testes de Menus</h1>
+        <i class="material-symbols-outlined" onclick="clickMenu">Menu</i>
+        <nav id="itens">
+            <a href="">Opção 1</a>
+            <a href="">Opção 2</a>
+            <a href="">Opção 3</a>
+            <a href="">Opção 4</a>
+            <a href="">Opção 5</a>
         </nav>
     </header>
     <main>
         <article>
-            <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita voluptatibus voluptas eligendi saepe quisquam quis sint officiis veritatis, nostrum laudantium non fugit amet eum qui aspernatur? Rem deserunt in perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum modi quas, aperiam reprehenderit deserunt aliquid voluptatum, blanditiis earum dolore perspiciatis repellat necessitatibus, cupiditate alias totam dolorem. Culpa, illum earum.</p><br>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae eligendi consequatur assumenda doloribus quibusdam corrupti quos ad dolore quasi numquam repellendus deleniti laborum minima sit, dolores architecto. Esse, minus reiciendis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iusto quod deserunt fugit culpa consectetur laudantium sequi eligendi illo ratione consequatur voluptatem soluta impedit itaque, quasi est praesentium velit harum.</p><br>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cupiditate pariatur nihil, quam similique vel at veniam totam dolores culpa minima sunt. Veritatis, quidem assumenda! Id ratione ad accusamus placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto obcaecati eos ullam cumque perspiciatis consectetur voluptas iure inventore deleniti, dicta exercitationem sed adipisci, nesciunt necessitatibus? A alias ex error.</p><br>
+            <h2>Um pouco sobre...</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eos aut quidem repellendus quos hic esse ut repellat sint, aperiam adipisci ea omnis itaque. Molestias sunt dolorum saepe maiores corrupti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo molestiae ipsum suscipit accusantium, quidem libero ullam quae et sit modi assumenda debitis molestias, beatae quaerat, quam quos quia eos vero?<br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui provident unde quos voluptatibus harum assumenda, odio culpa, illo laborum ab nulla aut? Inventore sequi a sed ducimus incidunt commodi quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi rem minima asperiores, fugiat numquam hic vel quos aperiam dolor a atque! Ut eveniet dolorum, recusandae atque ducimus molestiae deserunt. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsum earum nobis in, architecto praesentium minima tenetur molestias nemo? Et saepe eos dolorum accusamus quas? At deleniti dolorum odio in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor modi ipsa illo! Magni numquam dolores sed nisi ipsum. Eaque debitis asperiores ducimus quo rerum at fugiat! Magni quod architecto cupiditate
+            </p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            itens.style.display = 'block'
+        }
+    </script>
 </body>
 </html>
