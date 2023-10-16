@@ -1,64 +1,84 @@
 @charset "UTF-8";
 
-
-
 *{
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: lightgrey;
 }
 
 header{
-    background-color: rgb(94, 94, 94);
-    color: white;
+    background-color: gray;
+}
+
+header > h1{
+    padding: 10px;
     text-align: center;
 }
 
-h1{
-    padding: 0.5em 0em .5em 0.5em;
-}
-
-nav{
-    display: none;
-    flex-direction: column;
-}
-
-i{
-    background-color: rgb(56, 56, 56);
-    width: 100%;
+span#burger{
+    display: block;
+    color: white;
+    text-align: center;
     padding: 10px;
+    background-color: rgb(51, 50, 50);
+    cursor: pointer;
 }
 
-a{
-    background-color: rgb(80, 79, 79);
-    margin: 2px 0px 2px 0px;
-    padding: 10px;
-    color: aliceblue;
-    text-decoration: none;
-}
-
-a:hover, i:hover{
-    background-color: rgb(182, 182, 182);
-    transform: scale(1.1);
-    transition: background-color .5s;
-}
-
-body{
-    background-color: rgb(184, 184, 184);
-}
-
-article{
-    margin: auto;
-    margin: 1em ;
-    max-width: 1000px;
+span#burger:hover{
     background-color: white;
-    border-radius: 20px;
-    padding: 1em;
+    color: black;
+    transition: color .2s, background-color .5s;
+}
+
+nav {
+    display: none;
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+nav > ul > li >a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    border: 1px solid black;
+}
+
+nav > ul > li > a:hover{
+    color: black;
+    background-color: gray;
+    transform: scale(1.1);
+    transition: color .2s, background-color .5s, transform .2s;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 article > h2{
-    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+article{
+    text-align: justify;
+    
+    
 }
 
 article > p{
-    text-indent: 2em;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
