@@ -19,7 +19,7 @@ header > h1{
     text-align: center;
 }
 
-span#burger{
+i#burger{
     display: block;
     color: white;
     text-align: center;
@@ -28,7 +28,7 @@ span#burger{
     cursor: pointer;
 }
 
-span#burger:hover{
+i#burger:hover{
     background-color: white;
     color: black;
     transition: color .2s, background-color .5s;
@@ -61,6 +61,7 @@ nav > ul > li > a:hover{
 
 main{
     width: 90%;
+    max-width: 900px;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -81,4 +82,26 @@ article{
 article > p{
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+@media screen and (min-width: 600px){
+    i#burger{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    .horizontal-list {
+        list-style: none;
+        padding: 0; 
+        display: flex; 
+    }
+    
+    .horizontal-list li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
 }
